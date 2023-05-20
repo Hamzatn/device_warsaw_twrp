@@ -20,4 +20,6 @@
 
 ## Device Picture
 
-![Huawei P10 Lite](https://meremobil.dk/wp-content/uploads/2017/04/522ff0-p10lite-front.png "Huawei P10 Lite")
+<p align="center"> 
+    <img src="https://meremobil.dk/wp-content/uploads/2017/04/522ff0-p10lite-front.png" alt="Huawei P10 Lite"/> 
+</p>
