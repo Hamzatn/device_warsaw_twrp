@@ -1,0 +1,23 @@
+on early-init
+
+on init
+
+on early-fs
+
+on fs
+
+on post-fs && property:ro.connectivity.chiptype=hisi
+    exec u:r:modprobe:s0 -- /sbin/toybox_static modprobe -a -d /vendor/lib/modules \
+        plat.ko wifi.ko
+
+on post-fs
+#	exec u:r:modprobe:s0 -- /sbin/modprobe_static -a -d /vendor/lib/modules \
+#		test_a_ko.ko \
+#		test_b_ko.ko
+
+on post-fs-data
+
+on early-boot
+
+on boot
+
